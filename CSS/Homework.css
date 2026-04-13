@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html body {
+    background-color: rgba(245, 245, 245, 1.00)
+}
+
+.orange-col {
+    background-color: orange;
+    color: white;
+
+}
+
+.blue-col {
+    background-color:blue;
+    color: white;
+    
+}
+
+.teal-col {
+    background-color: teal;
+    color: white;
+    
+}
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.bg-body-tertiary {
+    background-color: rgb(55, 55, 55) !important;
+}
+
+.nav-link {
+    color: rgb(200, 200, 200) !important;
+}
+
+.navbar-brand {
+    color: rgb(255, 255, 255) !important;
+}
+
+.nav-link:hover {
+    color: rgb(255, 255, 255) !important;
+}
+
+.active {
+    color: rgb(255, 255, 255) !important;
+}
+
+.navbar-toggler {
+  filter: invert(100%);
+}
+
+h1 {
+    font-size: 1.802em;
+    font-weight: 700;
+    font-style: normal;
+} 
+
+h2 {
+    font-size: 1.602em;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    font-weight: 400;
+}
+
+.footer-atram {
+    background-color: rgb(27, 27, 27);
+    color: rgb(200, 200, 200);
+    text-align: center;
+} 
+
+.btn-primary {
+    background-color: rgb(27, 27, 27);
+    color: rgb(200, 200, 200);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: rgb(55, 55, 55);
+    color: rgb(255, 255, 255);
+} 
+
+.row.carousel-padding {
+    padding-left: 100px;
+    padding-right: 100px;
+    color: rgb(27, 27, 27);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
